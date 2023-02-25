@@ -1,0 +1,128 @@
+@charset "utf-8";
+
+/* Noto Sans JP */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap");
+
+/*  Playfair Display */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Roboto */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* Pacifico */
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+/* Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  color: #000;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+body {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+  min-width: 100%;
+  width: 100%;
+  min-height: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: #fff;
+  background-size: contain;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+div,
+span,
+p {
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  width: auto;
+  height: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: underline;
+}
+
+a,
+span,
+i,
+b,
+u,
+strong,
+strike,
+sup,
+sub {
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.noselect,
+.no-select {
+  -webkit-user-select: none;
+  /* Chrome all / Safari all */
+  -moz-user-select: none;
+  /* Firefox all */
+  -ms-user-select: none;
+  /* IE 10+ */
+  user-select: none;
+  /* Likely future */
+}
+
+.root {
+  display: inline-flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  background-color: #fff;
+}
+
+/* Smartphones (Landscape) / Tablet (portrait) */
+@media only screen and (min-width: 481px) and (max-width: 800px) {}
+
+/* Tablet (Landscape) */
+@media only screen and (min-width: 801px) and (max-width: 1200px) {}
+
+/* Laptop */
+@media only screen and (min-width: 1201px) and (max-width: 1600px) {}
+
+/* Desktop */
+@media only screen and (min-width: 1601px) {}

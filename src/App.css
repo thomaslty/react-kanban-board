@@ -1,0 +1,57 @@
+.container {
+  display: inline-flex;
+
+}
+
+.column {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.card-container {
+  background-color: #eee;
+  width: 250px;
+  min-width: 250px;
+  border-radius: 2px;
+}
+
+.card-container .title {
+  font-size: 16px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.card {
+  display: inline-flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 25%);
+  ;
+}
+
+.card .title {
+  font-size: 15px;
+  font-weight: 500;
+  padding-bottom: 0;
+}
+
+.divider {
+  width: 100%;
+  border-bottom: 1px solid #e3e3e3;
+  margin: 8px 0
+}
+
+/* Smartphones (Landscape) / Tablet (portrait) */
+@media only screen and (min-width: 481px) and (max-width: 800px) {}
+
+/* Tablet (Landscape) */
+@media only screen and (min-width: 801px) and (max-width: 1200px) {}
+
+/* Laptop */
+@media only screen and (min-width: 1201px) and (max-width: 1600px) {}
+
+/* Desktop */
+@media only screen and (min-width: 1601px) {}
